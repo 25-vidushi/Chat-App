@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    background-color: rgb(19, 21, 48);
+}
+
+.container h1{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 15vmin;
+    color: rgb(115, 255, 0);
+    text-overflow: ellipsis;
+    text-shadow: 2px 2px rgb(29, 9, 207) ;
+}
+.dice-inside{
+    font-family: 'Comforter', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10vmin;
+    color: rgb(115, 255, 0);
+    text-overflow: ellipsis;
+    text-shadow: 2px 2px rgb(29, 9, 207) ;
+}
+.dice{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.dice_img{
+    width: 50%;
+    height: auto;
+}
